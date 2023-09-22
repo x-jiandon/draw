@@ -1,9 +1,247 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T03:16:37.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.0" etag="DBVlFHxBgzXwRYfA8dnu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T03:21:46.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="OkPzsqa7KhTWTLb5znHT" version="21.8.0" type="github">
   <diagram name="第 1 页" id="VOE-k2NTGSepZYom0St8">
-    <mxGraphModel>
+    <mxGraphModel dx="1687" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-2" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-3" value="AudioRecorder" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="436" y="20" width="150" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-4" value="AudioClip" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="636" y="20" width="150" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-5" value="AudioEffect" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="836" y="20" width="150" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-6" value="AudioFile" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1036" y="20" width="150" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-7" value="启动音频录制" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="OL5jHg9ZUnBz8naheKIk-1" target="OL5jHg9ZUnBz8naheKIk-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-8" value="调用startRecording()" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="140" />
+            </Array>
+            <mxPoint x="294.66666666666674" y="140" as="sourcePoint" />
+            <mxPoint x="510.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-9" value="开始录制音频" style="curved=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="561" y="150" />
+              <mxPoint x="561" y="180" />
+            </Array>
+            <mxPoint x="510.6666666666665" y="150" as="sourcePoint" />
+            <mxPoint x="510.6666666666665" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-10" value="停止录制" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="200" />
+            </Array>
+            <mxPoint x="94.66666666666674" y="200.0000000000001" as="sourcePoint" />
+            <mxPoint x="294.5000000000002" y="200.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-11" value="调用stopRecording()" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="220" />
+            </Array>
+            <mxPoint x="294.66666666666674" y="220" as="sourcePoint" />
+            <mxPoint x="510.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-12" value="停止录制音频" style="curved=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="561" y="240" />
+              <mxPoint x="561" y="270" />
+            </Array>
+            <mxPoint x="510.6666666666665" y="240" as="sourcePoint" />
+            <mxPoint x="510.6666666666665" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-13" value="保存录制的音频" style="curved=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="561" y="290" />
+              <mxPoint x="561" y="320" />
+            </Array>
+            <mxPoint x="510.6666666666665" y="290" as="sourcePoint" />
+            <mxPoint x="510.6666666666665" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-14" value="返回AudioClip" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="340" />
+            </Array>
+            <mxPoint x="510.5" y="340" as="sourcePoint" />
+            <mxPoint x="294.66666666666674" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-15" value="播放音频" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="360" />
+            </Array>
+            <mxPoint x="94.66666666666674" y="360" as="sourcePoint" />
+            <mxPoint x="294.5000000000002" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-16" value="调用play()" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="380" />
+            </Array>
+            <mxPoint x="294.66666666666674" y="380" as="sourcePoint" />
+            <mxPoint x="710.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-17" value="播放音频" style="curved=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="400" />
+              <mxPoint x="761" y="430" />
+            </Array>
+            <mxPoint x="710.6666666666665" y="400" as="sourcePoint" />
+            <mxPoint x="710.6666666666665" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-18" value="剪辑音频" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="440" />
+            </Array>
+            <mxPoint x="94.66666666666674" y="440" as="sourcePoint" />
+            <mxPoint x="294.5000000000002" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-19" value="调用trim(startTime, endTime)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="460" />
+            </Array>
+            <mxPoint x="294.66666666666674" y="460" as="sourcePoint" />
+            <mxPoint x="710.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-20" value="剪辑音频" style="curved=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="470" />
+              <mxPoint x="761" y="500" />
+            </Array>
+            <mxPoint x="710.6666666666665" y="470" as="sourcePoint" />
+            <mxPoint x="710.6666666666665" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-21" value="添加音频效果" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="520" />
+            </Array>
+            <mxPoint x="94.66666666666674" y="520" as="sourcePoint" />
+            <mxPoint x="294.5000000000002" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-22" value="调用applyEffect(effect)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="540" />
+            </Array>
+            <mxPoint x="294.66666666666674" y="540" as="sourcePoint" />
+            <mxPoint x="710.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-23" value="应用音频效果" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="560" />
+            </Array>
+            <mxPoint x="710.6666666666665" y="560.0000000000002" as="sourcePoint" />
+            <mxPoint x="910.5" y="560.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-24" value="处理后的音频" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="585" />
+            </Array>
+            <mxPoint x="910.5" y="584.9999999999998" as="sourcePoint" />
+            <mxPoint x="710.6666666666665" y="584.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-25" value="处理后的AudioClip" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="600" />
+            </Array>
+            <mxPoint x="710.5" y="600" as="sourcePoint" />
+            <mxPoint x="294.66666666666674" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-26" value="导出音频" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="620" />
+            </Array>
+            <mxPoint x="94.66666666666674" y="620" as="sourcePoint" />
+            <mxPoint x="294.5000000000002" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-27" value="调用export()" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="640" />
+            </Array>
+            <mxPoint x="294.66666666666674" y="640" as="sourcePoint" />
+            <mxPoint x="710.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-28" value="导出音频" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="921.42" y="660" />
+            </Array>
+            <mxPoint x="711.0866666666665" y="660.0000000000002" as="sourcePoint" />
+            <mxPoint x="1110.92" y="660.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-29" value="保存音频文件" style="curved=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160.33" y="680" />
+              <mxPoint x="1160.33" y="710" />
+            </Array>
+            <mxPoint x="1109.9966666666664" y="680" as="sourcePoint" />
+            <mxPoint x="1109.9966666666664" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5jHg9ZUnBz8naheKIk-30" value="导出的音频文件" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="730" />
+            </Array>
+            <mxPoint x="1110.5" y="730" as="sourcePoint" />
+            <mxPoint x="294.66666666666674" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
