@@ -1,9 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T03:23:45.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.0" etag="TrvSAcl52iLtWnhX7RbY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T03:30:20.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CkQi9kalMjqfzyLZ0dRe" version="21.8.0" type="github">
   <diagram name="第 1 页" id="CyqmIJVRa5mEmiT_WYyn">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-2" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-3" value="UserProfile" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="577" y="20" width="150" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-4" value="PrivacySettings" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="777" y="20" width="150" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-5" value="编辑个人资料" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="U1hhDCUvMZecPdAKjr0u-1" target="U1hhDCUvMZecPdAKjr0u-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-6" value="调用updateProfile(email, phoneNumber)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="U1hhDCUvMZecPdAKjr0u-2" target="U1hhDCUvMZecPdAKjr0u-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-7" value="更新个人资料" style="curved=1;rounded=0;" edge="1" parent="1" source="U1hhDCUvMZecPdAKjr0u-3" target="U1hhDCUvMZecPdAKjr0u-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="231" />
+              <mxPoint x="702" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-8" value="设置隐私偏好" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="U1hhDCUvMZecPdAKjr0u-1" target="U1hhDCUvMZecPdAKjr0u-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-9" value="调用setPrivacySettings(shareProfile, sharePosts)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="U1hhDCUvMZecPdAKjr0u-2" target="U1hhDCUvMZecPdAKjr0u-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="584" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1hhDCUvMZecPdAKjr0u-10" value="更新隐私设置" style="curved=1;rounded=0;" edge="1" parent="1" source="U1hhDCUvMZecPdAKjr0u-4" target="U1hhDCUvMZecPdAKjr0u-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="902" y="417" />
+              <mxPoint x="902" y="447" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
